@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+        <style>
+            *{
+                margin: 0px;
+                outline: 0px;
+                padding: 0px;
+            }
+            .nav{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 20vh;
+                background-color:rgb(206, 125, 105);
+                align-items: center;
+                font-size: 25px;
+            }
+            .left img {
+                width: 200px;
+                height: 80px;
+                margin: 10px;
+            }
+            .right{
+                display: flex;
+            }
+            .right div a{
+                display: flex;
+                color: darkmagenta;
+                 }
+            .right div {
+                padding-right: 23px;
+                
+            }
+            .icon{
+                position: relative;
+                width: 5px;
+                height: 20px;
+                border-radius: 50%;
+                border: 2px solod indianred;
+                padding: 5px;
+            }
+            .icon a{
+                position: absolute;
+                color:chartreuse;
+                top:-4px;
+                right:0px;
+            }
+            .ban{
+                width: 100%;
+                height: 80vh;
+                background:linear-gradient(rgba(200,100,90,50%),rgba(200,100,90,50%)),url("back.jpg");
+                background-size: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .cont{
+                display:flex;
+                flex-direction: column;
+                height:100px;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .cont h1{
+                color:darkcyan;
+                font-size: 40px;
+            }
+            .cont p{
+                color:darkorchid;
+                font-size: 19px;
+                line-height: 100px;
+            }
+            .cont button{
+                color:midnightblue;
+                background: transparent;
+                padding: 3px solid red;
+                border-radius: 8px;
+                font-size: 15;
+            }
+            .ftr{
+                background-color: darkgoldenrod;
+                width: 100%;
+            }
+            .ftr div{
+                text-align: center;
+                color:black;
+                font-size: 12px;
+            }
+            .fa-user{
+                color:darkgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="left"><img src="vec.jpg" alt="logo"/></div>
+            <div class="right">
+                <div><a href="#"><i class="fa-solid fa-house"></i>Home</a></div>
+                    <div><a href="#"><i class="fa-solid fa-address-card"></i>About</a> </div>
+                    <div><a href="#"><i class="fa-solid fa-circle-info"></i>Contact</a> </div>
+                    <div><a href="#"><i class="fa-solid fa-book"></i>Course</a></div>
+                    <div><a href="#">login </a>  </div>
+                    <div class="icon">
+                        <a href="#"></a><i class="fa-solid fa-user"></i>
+                </div>
+             </div>
+        </nav>
+        <div class="ban">
+            <div class="cont">
+                <h1>leading training institute</h1>
+                <p>To learn full stack come and join with us </p>
+                <button>Apply now</button>
+            </div>
+        </div>
+        <footer class="ftr">
+            <div>@COPYRIGHT RESERVED TO RAHUL.COM</div>
+        </footer>
+    </body>
+</html>
